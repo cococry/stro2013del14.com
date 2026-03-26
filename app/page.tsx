@@ -54,18 +54,16 @@ export default function Home() {
     <h1 className="italic text-4xl text-center">Stro2013del14</h1>
     <div className="p-5 bg-stone-900 border-white border-[1px] mx-5">
     <strong className="text-xl" >Übersicht</strong>
-    <p className="mt-2">Stro2013del14 ist eine Austauschplattform, die durch die Arbeit der ASST¹
-    im Jahre 2013 erstellt wurde — Stichwort: Strodel. Enthalten auf der Plattform ist ein Board-System 
-    mit Möglichkeit zum anonymen Diskurs. Ursprünglich entstanden ist dieses Netzwerk durch die Strodel 
-    Affäre, die 2013 im Rahmen des ETH Vorfalls Aufsehen erregte². Außerdem besteht die Möglichkeit, 
-    als Nutzer eigene Boards zu kreiren, jedoch besteht dadurch kein Board-Eigentum.</p>
-
+    <p className="mt-2">
+    x#@!%9&*?=+!$% ^&*(!@#$%& )(*!@# $% ^&*(!@# $%^&*(!@# )(*!@# $%^&*(!@# — !@#$%: ^&*(!@#.
+!@#$%&*(!@# $%^&*(!@# $%^&*(!@# $%^&*(!@# $%^&*(!@# $%^&*(!@# $%^&*(!@#.
+!@#$% $%^&*(!@# $%^&*(!@# $%^&*(!@# $%^&*(!@# $%^&*(!@# $%^&*(!@# $%^&*(!@#.
     <div className="border-l border-stone-300">
     <p className="ml-2 mt-3 font-sm text-stone-300">
-    ¹ ASST: Aaron Strodel Söldner Trupp 
+    ¹ ASST: $%^&*(!@# $%^&*(!@# $%^&*(!@#.
     </p>
     <p className="ml-2 mt-2 font-sm text-stone-300">
-    ² Mehr dazu <a className="text-blue-500 underline" href="https://aaronstrodel.de/">hier</a>
+    ² Mehr dazu: (*!@# $% ^&*(
     </p>
     </div>
     </div>
