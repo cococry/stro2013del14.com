@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Meinoberdorf - Agartha wartet auf dich",
-  description: "Lars welch und Angreboda schmiedeten diese Seite. Mach sie auf!",
+  title: "Stro2013del14 - Die Austauschplattform wie sie im Buche steht.",
+  description: "Im Austauschplattforms-Buch. Kommuniziere mit Menschen aller Welt, Wanderer!",
 };
 
 import localFont from "next/font/local";
