@@ -70,19 +70,22 @@ export default function Home() {
     </div>
     </div>
 
-      <div className="flex gap-4 m-5">
-      {[1, 2, 3, 4].map((i) => (
-        <div key={i} className="flex-1md:h-[150px] xl:h-[220px] overflow-hidden">
-          <img
-            src={`/gif-${i}.gif`}
-            alt={`gif-${i}`}
-            className="w-full h-full object-cover"
-          />
-        </div>
-      ))}
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 m-5">
+  {[1, 2, 3, 4].map((i) => (
+    <div
+      key={i}
+      className="h-[150px] w-[150px] md:w-full md:h-[150px] xl:h-[220px] overflow-hidden"
+    >
+      <img
+        src={`/gif-${i}.gif`}
+        alt={`gif-${i}`}
+        className="w-full h-full object-cover"
+      />
     </div>
-
-    <div className="p-5 bg-stone-900 border-white border-[1px] mx-5">
+  ))}
+</div>
+<div className="px-5  max-w-4xl w-full mx-auto">
+    <div className="p-5 bg-stone-900 border-white border-[1px]">
     <strong className="text-xl mb-2" >Boards</strong>
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 ">
     {loading ? (<p className="text-stone-500">Boards werden geladen...</p>) : 
@@ -95,6 +98,8 @@ export default function Home() {
     <button onClick={() => setOpen(!open)} className="text-xl border-l border-stone-500 hover:bg-stone-800 p-3 mt-2">
     {!open ? "Board erstellen" : "Abbrechen"} </button>
     {open && ( <CreateBoardForm/>) }
+    </div>
+
     </div>
 
     </div>
