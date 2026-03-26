@@ -82,7 +82,7 @@ export default function Home() {
       ))}
     </div>
 
-    <div className="w-full p-5 bg-stone-900 border-white border-[1px] mx-5">
+    <div className="p-5 bg-stone-900 border-white border-[1px] mx-5">
     <strong className="text-xl mb-2" >Boards</strong>
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-4 ">
     {loading ? (<p className="text-stone-500">Boards werden geladen...</p>) : 
